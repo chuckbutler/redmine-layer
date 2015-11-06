@@ -17,8 +17,8 @@ tags:
   - project management
 subordinate: false
 requires:
-  postgres:
-    interface: pgsql
+  mysql:
+    interface: mysql 
 provides:
   website:
      interface: http
